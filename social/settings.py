@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     "dwitter",
     "portfolio",
     "feedback",
-    "cards"
+    "cards",
+    "terms"
 ]
 
 MIDDLEWARE = [
