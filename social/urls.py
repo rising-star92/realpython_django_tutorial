@@ -17,8 +17,9 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path("", include("cards.urls")),
-    path("", include("terms.urls")),
+    path("", include("todo_app.urls")),
+    path("cards/", include("cards.urls")),
+    path("terms/", include("terms.urls")),
     path("feedback/", include("feedback.urls")),
     path("dwitter/", include("dwitter.urls")),
     path("portfolios/", include("portfolio.urls")),

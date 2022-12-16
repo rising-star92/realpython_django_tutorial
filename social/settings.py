@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     "portfolio",
     "feedback",
     "cards",
-    "terms"
+    "terms",
+    "todo_app"
 ]
 
 MIDDLEWARE = [
