@@ -12,7 +12,7 @@
             <div class="card-body">
                 <h5 class="card-title">{{ portfolio.title }}</h5>
                 <p class="card-text">{{ portfolio.description }}</p>
-                <a href="{% url 'portfolio_detail' portfolio.pk %}"
+                <a href="{% url 'portfolio:portfolio_detail' portfolio.pk %}"
                    class="btn btn-primary">
                     Read More
                 </a>
