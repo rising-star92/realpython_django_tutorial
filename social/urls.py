@@ -18,6 +18,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path("", include("todo_app.urls")),
+    path("dinosoar/", include("dinofacts.urls")),
     path("cards/", include("cards.urls")),
     path("terms/", include("terms.urls")),
     path("feedback/", include("feedback.urls")),

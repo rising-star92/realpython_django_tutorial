@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     "feedback",
     "cards",
     "terms",
-    "todo_app"
+    "todo_app",
+    "dinofacts"
 ]
 
 MIDDLEWARE = [
@@ -61,7 +62,7 @@ ROOT_URLCONF = 'social.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["portfolio/templates/", "dwitter/templates/", "feedback/templates/"],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
